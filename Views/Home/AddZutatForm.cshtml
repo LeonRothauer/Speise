@@ -23,6 +23,7 @@
                 <div class="col">
                     <label>In welcher Einheit soll die Menge dargestellt werden (g/kg/l/ml/...)?</label>
                     <input class="form-control" asp-for="Einheit" type="text" placeholder="Einheit" />
+                    <span asp-validation-for="Einheit" class="text-danger"></span>
                 </div>
             </div>
             <div class="row mb-3">
